@@ -15,27 +15,11 @@ const ProfileSchema = new Schema({
   description: {
     type: String
   },
-  class: [
+  classes: [
     {
-      title: {
-        type: String,
-        required: true
-      },
-      term: {
-        type: String,
-        required: true
-      },
-      room: {
-        type: String
-      },
-      current: {
-        type: Boolean,
-        //default: false
-      },
-      description: {
-        type: String
-      }
-    }
+		type: Schema.Types.ObjectId,
+		ref: 'groups'
+	}
   ],
   date: {
     type: Date,
