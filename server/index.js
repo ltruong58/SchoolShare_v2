@@ -6,6 +6,7 @@ const passport = require("passport");
 const profile = require('./routes/api/profile');
 const users = require("./routes/api/users");
 const groups = require("./routes/api/groups");
+const chats = require("./routes/api/chats");
 const session=require('express-session');
 const app = express();
 require('dotenv').config();
@@ -56,7 +57,7 @@ require("../config/passport")(passport);
 app.use("/api/users", users);
 app.use("/api/profile", profile);
 app.use("/api/groups",groups);
-
+app.use("/api/chats",chats);
 
 //Heroku, might need to change this
 const port = process.env.PORT || 5000;
