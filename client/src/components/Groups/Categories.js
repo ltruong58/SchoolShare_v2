@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import ProfileSideNav from './ProfileSideNav';
+//import ProfileSideNav from './ProfileSideNav';
 import axios from 'axios';
 
 class Groups extends Component {

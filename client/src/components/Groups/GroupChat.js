@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
-import ProfileSideNav from './ProfileSideNav';
+//import ProfileSideNav from './ProfileSideNav';
 import { connect } from 'react-redux';
-import { Link } from "react-router-dom";
-import { withRouter } from 'react-router-dom';
+//import { Link } from "react-router-dom";
+//import { withRouter } from 'react-router-dom';
 class GroupChat extends Component {
     state = {
         messages: null,

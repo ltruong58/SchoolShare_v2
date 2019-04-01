@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import OAuth from "../auth/OAuth";
+//import { Link } from "react-router-dom";
+//import OAuth from "../auth/OAuth";
 class Landing extends Component {
   componentDidMount() {
     document.body.classList.remove("background-white");

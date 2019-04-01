@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
-import ProfileSideNav from './ProfileSideNav';
+//import ProfileSideNav from './ProfileSideNav';
 import { Link } from "react-router-dom";
 
 class GroupList extends Component {
@@ -62,7 +62,7 @@ class GroupList extends Component {
                 }}>List All Groups </Link> */}
                 {/* List All Groups after user selects a category so this button is not needed */}
                     <h4 className="center-text" 
-                    style= {{marginLeft: "10px",
+                    style= {{
                     fontFamily: "Urbana",
                     marginLeft: "15px",
                     }}>List of Groups</h4>
