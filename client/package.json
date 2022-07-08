@@ -7,7 +7,7 @@
     "classnames": "^2.2.6",
     "is-empty": "^1.2.0",
     "jwt-decode": "^2.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-google-button": "^0.5.3",
