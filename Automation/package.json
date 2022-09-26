@@ -9,6 +9,6 @@
   "author": "Trevor",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^1.0.19"
+    "nightwatch": "^1.7.13"
   }
 }
